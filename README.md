@@ -18,6 +18,3 @@ https://pixabay.com/sound-effects/water-drip-45622/
 https://fonts.google.com/specimen/Open+Sans
 
 
-## Problem:
-
-When the bar is curved around +-30 degrees, when the ball falls, sometimes the ball incorrectly detects a collision with the seesaw. As a result, the ball’s animation doesn’t play or cancel before touching the seesaw. This happens because when the bar tilts, it’s detected as a large square. So when the ball reaches the top height of the tilted bar, it registers a collision.
